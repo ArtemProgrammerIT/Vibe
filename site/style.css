@@ -1,0 +1,79 @@
+
+body {
+    background: linear-gradient(-90deg, #324ab2, #758ae8, #23a6d5, #c623d5);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	transform: translate3d(0, 0, 0);
+}
+
+* {
+    font-family: monospace, sans-serif;
+    font-size: 30px;
+    cursor: default;
+}
+
+.creative {
+    outline: none;
+    margin-top: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    width: 500px;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.creative:hover {
+    border-radius: 10px;
+    outline: #218d5bb9 solid 2px;
+    transition: 0.2s;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.name {
+    font-size: 100px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+.name:hover {
+    letter-spacing: 35px;
+    transition: 0.4s;
+}
+
+button {
+    margin-top: 20px;
+    padding: 0;
+    border: #000 solid 2px;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+button:hover {
+    transition: 0.4s;
+    transform: scale(1.3);
+    background-color: #ffffff00;
+    color: #fff;
+    letter-spacing: 3px;
+    width: 120px;
+    border: #fff solid 2px;
+}
